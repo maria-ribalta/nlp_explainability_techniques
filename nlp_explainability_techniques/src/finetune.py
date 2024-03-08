@@ -4,7 +4,7 @@ from transformers import AutoModelForSequenceClassification
 from transformers import TrainingArguments
 import numpy as np
 import evaluate
-from src.preprocess import get_train_dev_test_data, tokenize
+from preprocess import get_train_dev_test_data, tokenize
 
 
 def compute_metrics(eval_pred):
