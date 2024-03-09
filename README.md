@@ -26,12 +26,34 @@ The data used in the experiments is the [poem_sentiment](https://huggingface.co/
 Since the dataset is quite limited, we have merged the train+test data to make the training set bigger, preserved the validation set and created our own test dataset which consists of a Taylor Swift song called ["All too well (10 Minute Version)(Taylor's Version)(From the Vault)](https://www.youtube.com/watch?v=sRxrwjOtIag)" and labelled it manually.
 Since our experiments do not require a big amount of data, these has been enough to test our techniques.
 
+To load the data, it is enough with doing:
+
+```python
+from src.preprocess import get_train_dev_test_data
+
+train, dev, test = get_train_dev_test_data()
+```
+
 ### Models
 
 The models used differ depending on the explainability technique we are evaluating, since not all techniques are suitable for neural networks (this is the last technique: declarative induction). For this reason, we have used:
 
 * A finetuned `google-bert/bert-base-cased` model with out `poem_sentiment data` (finetuning code in the file `src/finetune.py`).
 * A Random Forest from sklearn.
+
+To finetune the model with our training data, one must simply do:
+
+```console
+!python src/finetune.py
+```
+The finetuned model will be saved in the folder `pretrained_model` and to use it, one simply loads the Bert tokenizer and the model like this:
+
+```python
+tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
+model = AutoModelForSequenceClassification.from_pretrained(
+    "pretrained_model/", num_labels=4
+)
+```
 
 ## 🚀 Getting started
 
