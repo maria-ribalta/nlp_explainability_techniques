@@ -21,7 +21,7 @@ The data used in the experiments is the [poem_sentiment](https://huggingface.co/
 * 2: for neutral.
 * 3: for mixed feelings.
 
-Since the dataset is quite limited, we have merged the train+test data to make the training set bigger, preserved the validation set and created our own test dataset which consists of a Taylor Swift song called "All too well (10 minute verion)(Taylor's Version)" and labelled it manually.
+Since the dataset is quite limited, we have merged the train+test data to make the training set bigger, preserved the validation set and created our own test dataset which consists of a Taylor Swift song called ["All too well (10 Minute Verion)(Taylor's Version)(From the Vault)](https://www.youtube.com/watch?v=sRxrwjOtIag)" and labelled it manually.
 Since our experiments do not require a big amount of data, these has been enough to test our techniques.
 
 ### Models
