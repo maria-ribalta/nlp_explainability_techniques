@@ -1,15 +1,17 @@
 # NLP Explainability Techniques
 
-This repository is the code source of the paper: NLP Explainability Techniques in 2024. 
+This repository is the code source of the paper: NLP Explainability Techniques. 
 
-In 2020, Danilevsky et al introduced [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/pdf/2010.00711.pdf) where they explained, among others, the explainability techniques used in NLP. 4 years later, we evaluate some of the tools and methods they introduce, as well as propose some additional approaches that have appeared since the publication of the paper in 2020.
+In 2020, Danilevsky et al introduced [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/pdf/2010.00711.pdf) where they explained, among others, the explainability techniques used in NLP. 
+
+4 years later, we evaluate some of the tools and methods they introduce, as well as propose some additional approaches that have appeared since the publication of the paper in 2020.
 
 The five explainability techniques we review are:
-1. Feature Importance
-2. Surrogate Model
-3. Example Driven
-4. Provenance Based
-5. Declarative Induction
+1. [Feature Importance](nlp_explainability_techniques/1_Feature_importance.ipynb)
+2. [Surrogate Model](nlp_explainability_techniques/2_Surrogate_model.ipynb)
+3. [Example Driven](nlp_explainability_techniques/3_Example_driven.ipynb)
+4. [Provenance Based](nlp_explainability_techniques/4_Provenance_based.ipynb)
+5. [Declarative Induction](nlp_explainability_techniques/5_Declarative_induction.ipynb)
 
 We introduce 5 notebooks where the user can play around and test the techniques and use the code to understand their models.
 
@@ -21,7 +23,7 @@ The data used in the experiments is the [poem_sentiment](https://huggingface.co/
 * 2: for neutral.
 * 3: for mixed feelings.
 
-Since the dataset is quite limited, we have merged the train+test data to make the training set bigger, preserved the validation set and created our own test dataset which consists of a Taylor Swift song called ["All too well (10 Minute Verion)(Taylor's Version)(From the Vault)](https://www.youtube.com/watch?v=sRxrwjOtIag)" and labelled it manually.
+Since the dataset is quite limited, we have merged the train+test data to make the training set bigger, preserved the validation set and created our own test dataset which consists of a Taylor Swift song called ["All too well (10 Minute Version)(Taylor's Version)(From the Vault)](https://www.youtube.com/watch?v=sRxrwjOtIag)" and labelled it manually.
 Since our experiments do not require a big amount of data, these has been enough to test our techniques.
 
 ### Models
