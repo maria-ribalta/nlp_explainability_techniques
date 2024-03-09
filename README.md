@@ -41,10 +41,10 @@ The models used differ depending on the explainability technique we are evaluati
 * A finetuned `google-bert/bert-base-cased` model with out `poem_sentiment data` (finetuning code in the file `src/finetune.py`).
 * A Random Forest from sklearn.
 
-To finetune the model with our training data, one must simply do:
+To finetune the model with our training data, one must simply run in the console:
 
 ```console
-!python src/finetune.py
+python src/finetune.py
 ```
 The finetuned model will be saved in the folder `pretrained_model` and to use it, one simply loads the Bert tokenizer and the model like this:
 
