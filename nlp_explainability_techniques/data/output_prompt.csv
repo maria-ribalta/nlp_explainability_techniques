@@ -1,0 +1,45 @@
+,sample_idx,prompt,response
+0,0,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed. The context is ""And you've still got it in your drawer, even now"". Say which class is more suitable and a short explanation","
+Based on the provided context, I would classify the sentiment of the sentence as ""Neutral."" The phrase ""And you've still got it in your drawer, even now"" is a statement that is neither explicitly positive nor negative. It simply acknowledges the presence of something (a piece of clothing) in a particular location (a drawer) at a specific time (even now). Therefore, the most suitable class for this sentence would be ""Neutral."""
+5,0,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed.The context is ""And you've still got it in your drawer, even now. Leaving it in a drawer signify it's no longer a part of his life"". Say which class is more suitable and a short explanation","
+Based on the given context, I would classify the sentence as neutral. The fact that the item is still in a drawer indicates that it is not currently being used or needed, but it is also not necessarily a negative thing to have something from the past stored away. The use of the phrase ""no longer a part of his life"" also suggests that the speaker does not view the item as having a positive or negative connotation. Therefore, the most suitable class for this sentence would be neutral."
+1,1,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed. The context is ""You kept me like a secret, but I kept you like an oath"". Say which class is more suitable and a short explanation","
+Based on the given sentence, I would classify it as Mixed. Here's why:
+
+The sentence contains both positive and negative elements. On one hand, the phrase ""You kept me like a secret"" implies that the speaker was protected or hidden from others, which can be interpreted as a positive thing. However, the second part of the sentence ""But I kept you like an oath"" suggests that the speaker is bound to keep something or someone important, which can also be seen as negative or obligatory. Therefore, the overall sentiment of the sentence is neither strictly positive nor negative, but rather a mix of both."
+6,1,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed.The context is ""You kept me like a secret, but I kept you like an oath. keep it like a secret implies Swift’s ex may have wanted to keep their relationship hidden"". Say which class is more suitable and a short explanation","
+Based on the provided context, the sentence can be classified as:
+
+* Negative: The speaker's use of the word ""kept"" implies that they were not aware of the secret relationship and may have felt betrayed or hurt by the secrecy.
+
+Explanation: The speaker is expressing a negative sentiment towards being kept in the dark about their partner's feelings, implying that they would have preferred to be openly told about it instead of being kept a secret.
+
+Therefore, the most suitable class for this sentence is Negative."
+2,2,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed. The context is ""He's gonna say it's love"". Say which class is more suitable and a short explanation","
+Based on the given context, the most suitable class for the sentence is ""Positive.""
+
+The context provides a clear indication that the speaker is expecting something good or positive to happen, as they use the phrase ""He's gonna say it's love."" This implies that the speaker has high hopes or expectations for the outcome, which is typically associated with a positive sentiment."
+7,2,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed.The context is ""He's gonna say it's love. Leaving it in a drawer signify it's no longer a part of his life"". Say which class is more suitable and a short explanation","
+Based on the given context, I would classify the sentence as:
+
+* Negative: The use of the word ""no longer"" and the fact that the speaker is leaving something in a drawer suggest that the thing in question is no longer a part of their life, which implies a negative connotation.
+
+Explanation: The context suggests that the speaker believes He's going to say something positive (it's love), but the action of leaving it in a drawer signifies that it's no longer a part of his life, which is a negative outcome."
+3,3,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed. The context is ""So casually cruel in the name of bein' honest"". Say which class is more suitable and a short explanation","
+Based on the given context, I would classify the sentence as more suited to the ""negative"" category. Here's why:
+
+The sentence ""So casually cruel in the name of bein' honest"" conveys a negative sentiment towards the act of being dishonest or hurtful towards others, even if it's done under the guise of ""honesty."" The use of the word ""casually"" suggests a lack of care or consideration for the feelings of others, which is a negative trait.
+
+Therefore, the most suitable class for this sentence would be ""negative."""
+8,3,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed.The context is ""So casually cruel in the name of bein' honest. 'In the name of being honest' can be seen as Swift describing her partner as manipulative"". Say which class is more suitable and a short explanation","
+Based on the provided context, I would classify the sentence as negative. The use of the phrase ""so casually cruel"" suggests a lack of empathy or compassion, and the mention of being honest implies that the speaker is being truthful about their feelings in a harsh manner. The phrase ""in the name of bein' honest"" adds to the negativity as it implies that the speaker is using honesty as an excuse for their cruel behavior. Overall, the tone of the sentence is negative and critical, making it more suitable to be classified as such."
+4,4,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed. The context is ""You double-cross my mind"". Say which class is more suitable and a short explanation","
+Based on the given context, I would classify the sentence as having a negative sentiment. The phrase ""double-cross"" has a strong negative connotation, implying betrayal or deceit, which aligns with the negative sentiment. Therefore, the most suitable class for this sentence is Negative."
+9,4,"You are a classifier that, given a context, says if the sentence is negative, positive, neutral or mixed.The context is ""You double-cross my mind. 'All is well that ends well' is an expression that means struggles and difficulty will pass by as long as the outcome is positive.To double-cross someone is to deceive or betray them"". Say which class is more suitable and a short explanation","
+Based on the given context, the sentence ""You double-cross my mind"" can be classified into the following categories:
+
+1. Negative: The use of the word ""double-cross"" conveys a sense of betrayal or deception, which has a negative connotation.
+2. Positive: The phrase ""All is well that ends well"" suggests that the outcome of a difficult situation will be positive, indicating a positive sentiment.
+3. Mixed: The sentence combines elements of both positive and negative emotions, making it difficult to classify it into a single category.
+
+Therefore, I would say that the most suitable class for this sentence is ""Mixed""."
