@@ -38,7 +38,8 @@ train, dev, test = get_train_dev_test_data()
 
 The models used differ depending on the explainability technique we are evaluating, since not all techniques are suitable for neural networks (this is the last technique: declarative induction). For this reason, we have used:
 
-* A finetuned `google-bert/bert-base-cased` model with out `poem_sentiment data` (finetuning code in the file `src/finetune.py`).
+* A finetuned `google-bert/bert-base-cased` model with `poem_sentiment` data (finetuning code in the file `src/finetune.py`).
+* The `meta-llama/Llama-2-7b-chat-hf` model.
 * A Random Forest from sklearn.
 
 To finetune the model with our training data, one must simply run in the console:
@@ -63,18 +64,3 @@ To be able to reproduce all the results and visualizations shown in this reposit
 pip install -r requirements.txt
 ```
 
-## To DO:
-
-- [ ] Acabar techniques
-  - [ ] Feature Importance
-  - [ ] Surrogate Model
-  - [ ] Example Driven
-  - [ ] Provenance Based
-  - [ ] Declarative Induction (falten conclusions)
-  - [ ] Estructura techniques: Intro, experiments, conclusions
-- [ ] Cleaning
-  - [ ] Linting
-  - [ ] Requirements
-  - [ ] ReadMe (Getting started)
-- [ ] Add paper later :D
-- [ ] Add poster
