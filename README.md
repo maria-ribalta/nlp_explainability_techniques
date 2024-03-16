@@ -1,6 +1,6 @@
 # NLP Explainability Techniques
 
-This repository is the code source of the paper: NLP Explainability Techniques. 
+This repository is the code source of the project: [NLP Explainability Techniques](nlp_explainability_techniques/relevant_documents/NLP_Explainability_Techniques.pdf). 
 
 In 2020, Danilevsky et al introduced [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/pdf/2010.00711.pdf) where they explained, among others, the explainability techniques used in NLP. 
 
